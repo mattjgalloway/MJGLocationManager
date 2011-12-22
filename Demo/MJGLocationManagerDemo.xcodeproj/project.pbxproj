@@ -1,0 +1,300 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C91C4EC714A2962700A75894 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C91C4EC614A2962700A75894 /* UIKit.framework */; };
+		C91C4EC914A2962700A75894 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C91C4EC814A2962700A75894 /* Foundation.framework */; };
+		C91C4ECB14A2962700A75894 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C91C4ECA14A2962700A75894 /* CoreGraphics.framework */; };
+		C91C4EEE14A2971B00A75894 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C91C4EEA14A2971B00A75894 /* AppDelegate.m */; };
+		C91C4EEF14A2971B00A75894 /* MJGLocationManagerDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C91C4EEC14A2971B00A75894 /* MJGLocationManagerDemoViewController.m */; };
+		C91C4EF014A2971B00A75894 /* MJGLocationManagerDemoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C91C4EED14A2971B00A75894 /* MJGLocationManagerDemoViewController.xib */; };
+		C91C4EF414A2972600A75894 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C91C4EF114A2972600A75894 /* main.m */; };
+		C91C4EFC14A2974800A75894 /* MJGLocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C91C4EF914A2974800A75894 /* MJGLocationManager.m */; };
+		C91C4EFD14A2974800A75894 /* MJGLocationRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = C91C4EFB14A2974800A75894 /* MJGLocationRequest.m */; };
+		C91C4F0614A29DB100A75894 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C91C4F0514A29DB100A75894 /* CoreLocation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C91C4EC214A2962700A75894 /* MJGLocationManagerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MJGLocationManagerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C91C4EC614A2962700A75894 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C91C4EC814A2962700A75894 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C91C4ECA14A2962700A75894 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C91C4EE914A2971B00A75894 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C91C4EEA14A2971B00A75894 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C91C4EEB14A2971B00A75894 /* MJGLocationManagerDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJGLocationManagerDemoViewController.h; sourceTree = "<group>"; };
+		C91C4EEC14A2971B00A75894 /* MJGLocationManagerDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJGLocationManagerDemoViewController.m; sourceTree = "<group>"; };
+		C91C4EED14A2971B00A75894 /* MJGLocationManagerDemoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MJGLocationManagerDemoViewController.xib; sourceTree = "<group>"; };
+		C91C4EF114A2972600A75894 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = SOURCE_ROOT; };
+		C91C4EF214A2972600A75894 /* MJGLocationManagerDemo-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "MJGLocationManagerDemo-Info.plist"; sourceTree = SOURCE_ROOT; };
+		C91C4EF314A2972600A75894 /* MJGLocationManagerDemo-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MJGLocationManagerDemo-Prefix.pch"; sourceTree = SOURCE_ROOT; };
+		C91C4EF814A2974800A75894 /* MJGLocationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJGLocationManager.h; sourceTree = "<group>"; };
+		C91C4EF914A2974800A75894 /* MJGLocationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJGLocationManager.m; sourceTree = "<group>"; };
+		C91C4EFA14A2974800A75894 /* MJGLocationRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJGLocationRequest.h; sourceTree = "<group>"; };
+		C91C4EFB14A2974800A75894 /* MJGLocationRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJGLocationRequest.m; sourceTree = "<group>"; };
+		C91C4F0514A29DB100A75894 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C91C4EBF14A2962700A75894 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C91C4EC714A2962700A75894 /* UIKit.framework in Frameworks */,
+				C91C4EC914A2962700A75894 /* Foundation.framework in Frameworks */,
+				C91C4ECB14A2962700A75894 /* CoreGraphics.framework in Frameworks */,
+				C91C4F0614A29DB100A75894 /* CoreLocation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C91C4EB714A2962700A75894 = {
+			isa = PBXGroup;
+			children = (
+				C91C4EF614A2973E00A75894 /* MJGLocationManager */,
+				C91C4ECC14A2962700A75894 /* MJGLocationManagerDemo */,
+				C91C4EC514A2962700A75894 /* Frameworks */,
+				C91C4EC314A2962700A75894 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C91C4EC314A2962700A75894 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C91C4EC214A2962700A75894 /* MJGLocationManagerDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C91C4EC514A2962700A75894 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C91C4EC614A2962700A75894 /* UIKit.framework */,
+				C91C4EC814A2962700A75894 /* Foundation.framework */,
+				C91C4ECA14A2962700A75894 /* CoreGraphics.framework */,
+				C91C4F0514A29DB100A75894 /* CoreLocation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C91C4ECC14A2962700A75894 /* MJGLocationManagerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				C91C4EE814A2971B00A75894 /* Source */,
+				C91C4ECD14A2962700A75894 /* Supporting Files */,
+			);
+			path = MJGLocationManagerDemo;
+			sourceTree = "<group>";
+		};
+		C91C4ECD14A2962700A75894 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C91C4EF114A2972600A75894 /* main.m */,
+				C91C4EF214A2972600A75894 /* MJGLocationManagerDemo-Info.plist */,
+				C91C4EF314A2972600A75894 /* MJGLocationManagerDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C91C4EE814A2971B00A75894 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				C91C4EE914A2971B00A75894 /* AppDelegate.h */,
+				C91C4EEA14A2971B00A75894 /* AppDelegate.m */,
+				C91C4EEB14A2971B00A75894 /* MJGLocationManagerDemoViewController.h */,
+				C91C4EEC14A2971B00A75894 /* MJGLocationManagerDemoViewController.m */,
+				C91C4EED14A2971B00A75894 /* MJGLocationManagerDemoViewController.xib */,
+			);
+			path = Source;
+			sourceTree = SOURCE_ROOT;
+		};
+		C91C4EF614A2973E00A75894 /* MJGLocationManager */ = {
+			isa = PBXGroup;
+			children = (
+				C91C4EF714A2974800A75894 /* Source */,
+			);
+			name = MJGLocationManager;
+			sourceTree = "<group>";
+		};
+		C91C4EF714A2974800A75894 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				C91C4EF814A2974800A75894 /* MJGLocationManager.h */,
+				C91C4EF914A2974800A75894 /* MJGLocationManager.m */,
+				C91C4EFA14A2974800A75894 /* MJGLocationRequest.h */,
+				C91C4EFB14A2974800A75894 /* MJGLocationRequest.m */,
+			);
+			name = Source;
+			path = ../Source;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C91C4EC114A2962700A75894 /* MJGLocationManagerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C91C4EE014A2962700A75894 /* Build configuration list for PBXNativeTarget "MJGLocationManagerDemo" */;
+			buildPhases = (
+				C91C4EBE14A2962700A75894 /* Sources */,
+				C91C4EBF14A2962700A75894 /* Frameworks */,
+				C91C4EC014A2962700A75894 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MJGLocationManagerDemo;
+			productName = MJGLocationManagerDemo;
+			productReference = C91C4EC214A2962700A75894 /* MJGLocationManagerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C91C4EB914A2962700A75894 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = C91C4EBC14A2962700A75894 /* Build configuration list for PBXProject "MJGLocationManagerDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C91C4EB714A2962700A75894;
+			productRefGroup = C91C4EC314A2962700A75894 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C91C4EC114A2962700A75894 /* MJGLocationManagerDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C91C4EC014A2962700A75894 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C91C4EF014A2971B00A75894 /* MJGLocationManagerDemoViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C91C4EBE14A2962700A75894 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C91C4EEE14A2971B00A75894 /* AppDelegate.m in Sources */,
+				C91C4EEF14A2971B00A75894 /* MJGLocationManagerDemoViewController.m in Sources */,
+				C91C4EF414A2972600A75894 /* main.m in Sources */,
+				C91C4EFC14A2974800A75894 /* MJGLocationManager.m in Sources */,
+				C91C4EFD14A2974800A75894 /* MJGLocationRequest.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C91C4EDE14A2962700A75894 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C91C4EDF14A2962700A75894 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C91C4EE114A2962700A75894 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MJGLocationManagerDemo-Prefix.pch";
+				INFOPLIST_FILE = "MJGLocationManagerDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C91C4EE214A2962700A75894 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MJGLocationManagerDemo-Prefix.pch";
+				INFOPLIST_FILE = "MJGLocationManagerDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C91C4EBC14A2962700A75894 /* Build configuration list for PBXProject "MJGLocationManagerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C91C4EDE14A2962700A75894 /* Debug */,
+				C91C4EDF14A2962700A75894 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C91C4EE014A2962700A75894 /* Build configuration list for PBXNativeTarget "MJGLocationManagerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C91C4EE114A2962700A75894 /* Debug */,
+				C91C4EE214A2962700A75894 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C91C4EB914A2962700A75894 /* Project object */;
+}
